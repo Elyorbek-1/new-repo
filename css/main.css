@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.container{
+	width: 85%; 
+	height: 600px;
+	margin: 0px auto;
+}
+.logo_img{
+	margin-top: 5px;
+	width: 50px;
+	height: 50px;
+
+}
+.in_put{
+	border:0;
+	outline: 0;
+	border-bottom:2px solid #b2b2b3;
+	text-decoration: none;
+	width: 200px;
+	height: 20px;
+}
+.in_put:hover{
+	border-bottom: 3px solid #b2b2b3;
+}
+.container_ul{
+	float: right;
+}
+
+.container li{
+	display: inline;
+}
+.container a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	color: #a7a6a7;
+}
+.container li:hover{
+	border-bottom: 1px solid black;
+}
+.box{
+	margin-top: 100px;
+}
+.box_h1{
+	font-size: 40px;
+	font-family: sans-serif;
+}
+.box_p{
+	width: 300px;
+	margin-top: 40px;
+	padding-left: 30px;
+	line-height: 20px;
+	background-color: white;
+	color: #b2b2b3;
+}
+.box_border{
+border-left: 2px solid #999999;	
+}
+.box_bottom{
+	width: 200px;
+	height: 40px;
+	margin-top: 50px;
+	background-color: #ea625c;
+	color: white;
+}
+.box_img{
+	float: right;
+	width: 400px;
+	width: 400px;
+	height: 400px;	
+}
+
+.box1{
+	
+	display: flex;
+	width: 90%;
+}
+.box1_header{
+	color: #333333;
+}
+.box1_p{
+	margin-top: 40px;
+	text-align: justify;
+	color: black;
+	line-height: 20px;
+}
+.box2{
+	width: 85%; 
+	height: 300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}.box1_border{
+	width: 90%;
+	margin: 20px;
+
+}
+.box3{
+	width: 85%; 
+	height: 900px;
+	margin: 0 auto;
+}
+.box3_img{
+	width: 400px;
+	height: 600px;
+	float: right;
+	margin-top: 100px;
+}
+.box3_header{
+	width: 500px;
+	font-size: 60px;
+	margin-top: 200px;
+}
+.box3_bottom{
+	width: 150px;
+	height: 40px;
+	background-color: #ea625c;
+	color: white;
+	margin-top: 40px;
+}
+.box3_p{
+	width: 350px;
+	margin-top: 40px;
+	padding-left: 30px;
+	line-height: 20px;
+	background-color: white;
+	color: #b2b2b3;
+}
+.footer{
+	width: 85%;
+	height: 600px;
+	margin: 0 auto;
+	background-image: url(../img/runners.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.footer_h4{
+	color: white;
+	font-size: 40px;
+	width: 500px;
+}
+.footer_p{
+	width: 400px;
+	margin-top: 40px;
+	padding-left: 30px;
+	line-height: 20px;
+	color: white;
+	display: inline-block;
+
+}
+.footer_bottom{
+	width: 200px;
+	height: 40px;
+	margin-top: 50px;
+	background-color: #ea625c;
+	color: white;
+}
+.right{
+	float: right;
+	margin-top: 100px;
+}
+button:hover{
+	background-color: #dc3c35;
+}
